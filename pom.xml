@@ -119,9 +119,9 @@
             <Bundle-SymbolicName>org.lucee.httpcomponents.httpclient</Bundle-SymbolicName>
             <Bundle-Description>OSGI version of jar ${project.name}</Bundle-Description>
             <Export-Package>*</Export-Package>
-            <!-- <Require-Bundle></Require-Bundle> -->
-            <!-- <Import-Package>*</Import-Package> -->
-            <!-- <DynamicImport-Package>*</DynamicImport-Package> -->
+            <Require-Bundle>org.lucee.httpcomponents.httpcore;bundle-version=4.4.1</Require-Bundle>
+            <Import-Package>!org.jets3t.service.utils</Import-Package>
+            <DynamicImport-Package>org.jets3t.service.utils</DynamicImport-Package>
           </instructions>
         </configuration>
         <extensions>true</extensions>
