@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.lucee</groupId>
   <artifactId>httpcomponents-httpclient</artifactId>
-  <version>4.5.6</version>
+  <version>4.5.8</version>
   <name>Apache HttpClient</name>
   <packaging>bundle</packaging>
 
@@ -95,7 +95,7 @@
                  <artifactItem>
                    <groupId>org.apache.httpcomponents</groupId>
                     <artifactId>httpclient</artifactId>
-                    <version>4.5.6</version>
+                    <version>4.5.8</version>
                    <type>jar</type>
                    <overWrite>false</overWrite>
                    <outputDirectory>${project.build.directory}/classes</outputDirectory>
@@ -119,7 +119,7 @@
             <Bundle-SymbolicName>org.lucee.httpcomponents.httpclient</Bundle-SymbolicName>
             <Bundle-Description>OSGI version of jar ${project.name}</Bundle-Description>
             <Export-Package>*</Export-Package>
-            <Require-Bundle>org.lucee.httpcomponents.httpcore;bundle-version=4.4.10</Require-Bundle>
+            <Require-Bundle>org.lucee.httpcomponents.httpcore;bundle-version=4.4.11</Require-Bundle>
             <!-- <Import-Package>!org.apache.http.concurrent,!org.jets3t.service.utils,!org.apache.http.config,!org.apache.http.impl,!org.apache.http.entity,!org.apache.http.util,!org.apache.http.protocol,!org.apache.http.io,!org.apache.http.annotation,!org.apache.http.ssl,!org.apache.http.impl.io,!org.apache.http,!org.ietf.jgss,!org.apache.http.params,!org.apache.commons.codec.binary,!org.apache.http.pool,!org.apache.http.message</Import-Package>
             <DynamicImport-Package>org.apache.http.concurrent,org.jets3t.service.utils,org.apache.http.config,org.apache.http.impl,org.apache.http.entity,org.apache.http.util,org.apache.http.protocol,org.apache.http.io,org.apache.http.annotation,org.apache.http.ssl,org.apache.http.impl.io,org.apache.http,org.ietf.jgss,org.apache.http.params,org.apache.commons.codec.binary,org.apache.http.pool,org.apache.http.message</DynamicImport-Package> -->
 
